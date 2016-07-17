@@ -12,6 +12,7 @@ long bauds[] = {
 
 bool detectBleBaudRate() {
   Serial.println("Detecting BLE baud rate:");
+  
   for (int i=0; i < (sizeof(bauds)/sizeof(long)); i++) {
     Serial.write("Checking ");
     long cur_baud = bauds[i];
@@ -30,19 +31,14 @@ bool detectBleBaudRate() {
       mySerial.end();
     }
   }
-  
-  return false;
+
+  detectBleBaudRate();
 }
 
 void setup() {
-  Serial.begin(115200);
-  detectBleBaudRate();
-
-   // pinMode(5, OUTPUT);
-   // digitalWrite(5, HIGH);
-   
-  // mySerial.begin(19200);
-  // Serial.println("Enter AT commands:");
+  mySerial.begin(19200);
+  Serial.begin(9600);
+  // detectBleBaudRate();
 }
 
 void loop() {
@@ -50,10 +46,12 @@ void loop() {
   if (Serial.available()) {
     c = Serial.read();
     mySerial.write(c);
+    delay(50);
+    Serial.write(mySerial.read());
   }
   
-  if (Serial.available()) {
-    c = mySerial.read();
-    Serial.write(c);
-  }
+  // if (Serial.available()) {
+    // c = mySerial.read();
+    // Serial.write(c);
+  // }
 }
