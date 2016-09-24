@@ -22,8 +22,9 @@
 
 ## Onde é vendido? É possível montar o seu?
 
-- [Farol.me](http://farol.me)
+- [Farol.me](http://farol.me) ![Farol.me revenda no Brasil](https://lipis.github.io/flag-icon-css/flags/4x3/br.svg)
 - [Estimote](http://estimote.com)
+- [Roximity](http://roximity.com/model-x)
 
 ## Quais benefícios e prejuízos em comprar um novo e montar o seu?
 
