@@ -22,7 +22,7 @@
 
 ## Onde é vendido? É possível montar o seu?
 
-- [Farol.me](http://farol.me) ![Farol.me revenda no Brasil](https://lipis.github.io/flag-icon-css/flags/4x3/br.svg)
+- [Farol.me](http://farol.me) ![Farol.me revenda no Brasil](assets/img/brazil-flag.png)
 - [Estimote](http://estimote.com)
 - [Roximity](http://roximity.com/model-x)
 
