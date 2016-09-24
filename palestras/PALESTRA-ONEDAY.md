@@ -25,6 +25,12 @@
 - [Farol.me](http://farol.me) ![Farol.me revenda no Brasil](assets/img/brazil-flag.png)
 - [Estimote](http://estimote.com)
 - [Roximity](http://roximity.com/model-x)
+- [BlueSense](http://bluesensenetworks.com)
+- [BlueCats](https://bluecats.com)
+- [GeloSite](http://www.gelosite.com)
+- [GlimWorm Beacons](http://glimwormbeacons.com)
+- [Gimbal](https://www.gimbal.com)
+- [Kontakt.io](https://kontakt.io)
 
 ## Quais benefícios e prejuízos em comprar um novo e montar o seu?
 
