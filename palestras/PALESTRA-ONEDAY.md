@@ -1,6 +1,6 @@
 #Palestra OneDay Baixada
 
-- Apresentação breve da empresa
+- Apresentação pessoal
 - O que é beacon, **ele é de comer**?
 - O que é bluetooth? E o que é bluetooth low energy (BLE)?
 - Como pode ser comercializado?
