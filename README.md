@@ -9,3 +9,7 @@
 
 - [Bluetooth Low Energy (BLE) Beacon Monitoring (Detection, Location, and Reporting)](http://blogs.cisco.com/wireless/bluetooth-low-energy-ble-beacon-monitoring-detection-location-and-reporting)
 - [What are region Monitoring and Ranging?](https://community.estimote.com/hc/en-us/articles/203356607-What-are-region-Monitoring-and-Ranging-)
+
+## Palestras
+
+- OneDay Baixada Santista
