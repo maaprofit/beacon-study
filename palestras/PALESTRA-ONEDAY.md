@@ -3,22 +3,49 @@
 - Apresentação pessoal
 - O que é beacon, **ele é de comer**?
 - O que é bluetooth? E o que é bluetooth low energy (BLE)?
-- Como pode ser comercializado?
-- Apresentação do GitHub de estudos sobre beacons
 - Onde é vendido? É possível montar o seu?
-- Quais benefícios e prejuízos em comprar um novo e montar um seu?
+- Apresentação do GitHub de estudos sobre beacons
 - Demonstração da montagem de um beacon com arduino.
 - Demonstração do funcionamento do beacon (aplicativo).
+
+## Tópicos
+
+1.0 Beacons - Mundo de possibilidades com IoT
+
+2.0 Apresentação
+
+3.0 Bluetooth (Conceitos Básicos)
+
+4.0 Beacons - Vídeo Nivea SUN (2:03)
+4.1 Introdução com uso do vídeo mostrado
+
+5.0 Beacons no mundo
+5.1 Vídeo ou Explicação
+
+6.0 Beacons no Brasil
+6.1 Problematíca do problema (não existe a porra da comunidade)
+6.2 Argumentação
+
+7.0 Parte técnica e construção (Definir imagem ou interatividade)
+
+8.0 Na prática
+8.1 Comunidade (GitHub)
+
+9.0 Obrigado!
+
+### Beacon
+
+- Dispositivo Bluetooth
+- Funcionamento
+- Utilização
+
+----
 
 ## Apresentação breve da empresa
 
 ## O que é beacon, ele é de comer?
 
 ## O que é bluetooth? E o bluetooth low energy?
-
-## Como ele pode ser comercializado?
-
-## Apresentação do GitHub de estudos sobre beacons
 
 ## Onde é vendido? É possível montar o seu?
 
@@ -32,7 +59,15 @@
 - [Gimbal](https://www.gimbal.com)
 - [Kontakt.io](https://kontakt.io)
 
-## Quais benefícios e prejuízos em comprar um novo e montar o seu?
+## Construção do beacon
+
+## Certificações
+
+- Anatel
+- Eddystone (Google)
+- AltBeacon (Apple)
+
+## Apresentação do GitHub de estudos sobre beacons
 
 ## Demonstração da montagem de um beacon com arduino.
 
@@ -47,7 +82,15 @@ apenas para Android devido a dificuldade que existe no iOS.
 
 ----
 
+## Casos de uso
+
+- [Nivea SUN](https://www.youtube.com/watch?v=BgXrTGIiFV8)
+- [Ikea Beacon](https://www.youtube.com/watch?v=ROx6WBxIgoM)
+
+----
+
 ## Referência de links para estudo
 
 - https://developers.google.com/beacons/
 - https://developers.google.com/beacons/eddystone **(Eddystone)**
+- https://developer.apple.com/ibeacon/
