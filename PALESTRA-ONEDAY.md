@@ -10,11 +10,11 @@
 - Demonstração da montagem de um beacon com arduino.
 - Demonstração do funcionamento do beacon (aplicativo).
 
-## Apresentação breve da empresa (5 mins)
+## Apresentação breve da empresa
 
-## O que é beacon, ele é de comer? (3 mins)
+## O que é beacon, ele é de comer?
 
-## O que é bluetooth? E o bluetooth low energy? (5 mins)
+## O que é bluetooth? E o bluetooth low energy?
 
 ## Como ele pode ser comercializado?
 
@@ -24,7 +24,6 @@
 
 - [Farol.me](http://farol.me)
 - [Estimote](http://estimote.com)
-- 
 
 ## Quais benefícios e prejuízos em comprar um novo e montar o seu?
 
