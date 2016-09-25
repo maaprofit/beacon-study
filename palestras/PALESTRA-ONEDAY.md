@@ -69,6 +69,5 @@ apenas para Android devido a dificuldade que existe no iOS.
 
 ## Referência de links para estudo
 
-- https://developers.google.com/beacons/
-- https://developers.google.com/beacons/eddystone **(Eddystone)**
-- https://developer.apple.com/ibeacon/
+- [Google Beacon Standard - EddyStone](https://developers.google.com/beacons/eddystone)
+- [Apple iBeacon Purpose](https://developer.apple.com/ibeacon)
