@@ -10,9 +10,8 @@
 
 ## Tópicos
 
-1.0 Beacons - Mundo de possibilidades com IoT
-
-2.0 Apresentação
+> Beacons - Mundo de possibilidades com IoT
+> Apresentação
 
 3.0 Bluetooth (Conceitos Básicos)
 
@@ -63,17 +62,11 @@ O termo Beacon é um conceito que utiliza o Bluetooth como seu próprio meio de 
 - [Gimbal](https://www.gimbal.com)
 - [Kontakt.io](https://kontakt.io)
 
-## Construção do beacon
+## Homologação Anatel
 
-## Padrões de configuração
+## Padrão Eddystone instituído pelo Google
 
-### Anatel
-
-A Anatel apenas homologa o uso 
-- Eddystone (Google)
-- AltBeacon (Apple)
-
-## Apresentação do GitHub de estudos sobre beacons
+## Tecnologia iBeacon da Apple
 
 ## Demonstração da montagem de um beacon com arduino.
 
@@ -88,10 +81,11 @@ apenas para Android devido a dificuldade que existe no iOS.
 
 ----
 
-## Casos de uso
+## Casos de uso [Vídeos]
 
 - [Nivea SUN](https://www.youtube.com/watch?v=BgXrTGIiFV8)
 - [Ikea Beacon](https://www.youtube.com/watch?v=ROx6WBxIgoM)
+- [Estimote - Basic Use](https://www.youtube.com/watch?v=G8uOddjwXSI)
 
 ----
 
