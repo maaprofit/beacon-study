@@ -41,11 +41,13 @@
 
 ----
 
-## Apresentação breve da empresa
-
 ## O que é beacon, ele é de comer?
 
 ## O que é bluetooth? E o bluetooth low energy?
+
+Bluetooth é um padrão global sem fio, que conecta dispositivos dentro de uma distância.
+
+- [Bluetooth](https://www.bluetooth.com/what-is-bluetooth-technology)
 
 ## Onde é vendido? É possível montar o seu?
 
