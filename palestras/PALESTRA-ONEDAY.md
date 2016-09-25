@@ -4,17 +4,16 @@
 * Apresentação
 * Bluetooth (Conceitos Básicos)
 * Beacons - Vídeo Nivea SUN (2:03)
- * Introdução com uso do vídeo mostrado
  * Dispositivo, funcionamento e sua utilização
 * Beacons no mundo
- * Vídeo ou Explicação
+ * _A Definir_
 * Beacons no Brasil
  * Diminuição do monopólio criado
  * Argumentação
 * Parte técnica e construção (Definir imagem ou interatividade)
 * Na prática
  * Comunidade (GitHub)
-* **Obrigado!**
+* Obrigado!
 
 ----
 
