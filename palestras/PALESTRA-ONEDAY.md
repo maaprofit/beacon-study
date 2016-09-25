@@ -1,42 +1,20 @@
 #Palestra OneDay Baixada
 
-- Apresentação pessoal
-- O que é beacon, **ele é de comer**?
-- O que é bluetooth? E o que é bluetooth low energy (BLE)?
-- Onde é vendido? É possível montar o seu?
-- Apresentação do GitHub de estudos sobre beacons
-- Demonstração da montagem de um beacon com arduino.
-- Demonstração do funcionamento do beacon (aplicativo).
-
-## Tópicos
-
-> Beacons - Mundo de possibilidades com IoT
-> Apresentação
-
-3.0 Bluetooth (Conceitos Básicos)
-
-4.0 Beacons - Vídeo Nivea SUN (2:03)
-4.1 Introdução com uso do vídeo mostrado
-
-5.0 Beacons no mundo
-5.1 Vídeo ou Explicação
-
-6.0 Beacons no Brasil
-6.1 Problematíca do problema (não existe a porra da comunidade)
-6.2 Argumentação
-
-7.0 Parte técnica e construção (Definir imagem ou interatividade)
-
-8.0 Na prática
-8.1 Comunidade (GitHub)
-
-9.0 Obrigado!
-
-### Beacon
-
-- Dispositivo Bluetooth
-- Funcionamento
-- Utilização
+* Beacons - Mundo de possibilidades com IoT
+* Apresentação
+* Bluetooth (Conceitos Básicos)
+* Beacons - Vídeo Nivea SUN (2:03)
+ * Introdução com uso do vídeo mostrado
+ * Dispositivo, funcionamento e sua utilização
+* Beacons no mundo
+ * Vídeo ou Explicação
+* Beacons no Brasil
+ * Diminuição do monopólio criado
+ * Argumentação
+* Parte técnica e construção (Definir imagem ou interatividade)
+* Na prática
+ * Comunidade (GitHub)
+* **Obrigado!**
 
 ----
 
