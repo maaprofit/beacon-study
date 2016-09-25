@@ -41,13 +41,15 @@
 
 ----
 
-## O que é beacon, ele é de comer?
-
 ## O que é bluetooth? E o bluetooth low energy?
 
 Bluetooth é um padrão global sem fio, que conecta dispositivos dentro de uma distância.
 
 - [Bluetooth](https://www.bluetooth.com/what-is-bluetooth-technology)
+
+## O que é beacon, ele é de comer?
+
+O termo Beacon é um conceito que utiliza o Bluetooth como seu próprio meio de se comunicar entre os dispositivos.
 
 ## Onde é vendido? É possível montar o seu?
 
@@ -63,9 +65,11 @@ Bluetooth é um padrão global sem fio, que conecta dispositivos dentro de uma d
 
 ## Construção do beacon
 
-## Certificações
+## Padrões de configuração
 
-- Anatel
+### Anatel
+
+A Anatel apenas homologa o uso 
 - Eddystone (Google)
 - AltBeacon (Apple)
 
