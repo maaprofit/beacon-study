@@ -2,15 +2,16 @@
 
 * Beacons - Mundo de possibilidades com IoT
 * Apresentação
-* Bluetooth (Conceitos Básicos)
-* Beacons - Vídeo Nivea SUN (2:03)
+* O que é Bluetooth
+* Beacons
+ * Vídeo [Nivea SUN](https://www.youtube.com/watch?v=BgXrTGIiFV8)
  * Dispositivo, funcionamento e sua utilização
 * Beacons no mundo
- * _A Definir_
+ * **Definir interatividade**
 * Beacons no Brasil
- * Diminuição do monopólio criado
- * Argumentação
-* Parte técnica e construção (Definir imagem ou interatividade)
+ * Argumentação e diminuição do monopólio criado
+* Parte técnica e construção
+ * **Definir interatividade**
 * Na prática
  * Comunidade (GitHub)
 * Obrigado!
