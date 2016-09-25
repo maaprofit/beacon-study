@@ -30,8 +30,8 @@ O termo Beacon é um conceito que utiliza o Bluetooth como seu próprio meio de 
 
 ## Onde é vendido? É possível montar o seu?
 
-- [Farol.me](http://farol.me) ![Farol.me revenda no Brasil](assets/img/brazil-flag.png)
 - [Estimote](http://estimote.com)
+- [Farol.me](http://farol.me) ![Farol.me revenda no Brasil](assets/img/brazil-flag.png)
 - [Roximity](http://roximity.com/model-x)
 - [BlueSense](http://bluesensenetworks.com)
 - [BlueCats](https://bluecats.com)
@@ -69,3 +69,12 @@ apenas para Android devido a dificuldade que existe no iOS.
 
 - [Google Beacon Standard - EddyStone](https://developers.google.com/beacons/eddystone)
 - [Apple iBeacon Purpose](https://developer.apple.com/ibeacon)
+- [Getting started with iBeacon](https://developer.apple.com/ibeacon/Getting-Started-with-iBeacon.pdf)
+- [Bluetooth Official Website](https://www.bluetooth.com/what-is-bluetooth-technology)
+- [GATT - Bluetooth Generic Attribute Profile](https://learn.adafruit.com/introduction-to-bluetooth-low-energy/gatt)
+
+## Artigos de interesse
+
+- [Bluetooth Low Energy: Um novo e emergente mercado de tecnologia sem fio](http://sis-publique.convergenciadigital.com.br/cgi/cgilua.exe/sys/start.htm?infoid=35710&sid=15)
+- [Bluetooth Low Energy (BLE) - A Short History of the BLE standard and GATT](http://www.edn-europe.com/blog/bluetooth-low-energy-ble-short-history-ble-standard-and-gatt)
+- [Over 100 use cases and examples for iBeacon technology](http://blog.mowowstudios.com/2015/02/100-use-cases-examples-ibeacon-technology)
