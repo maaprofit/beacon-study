@@ -65,8 +65,6 @@ apenas para Android devido a dificuldade que existe no iOS.
 - [Ikea Beacon](https://www.youtube.com/watch?v=ROx6WBxIgoM)
 - [Estimote - Basic Use](https://www.youtube.com/watch?v=G8uOddjwXSI)
 
-----
-
 ## Referência de links para estudo
 
 - [Google Beacon Standard - EddyStone](https://developers.google.com/beacons/eddystone)
