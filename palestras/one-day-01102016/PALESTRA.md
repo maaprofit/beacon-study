@@ -5,15 +5,23 @@
 * O que é Bluetooth
 * Beacons
  * Vídeo [Nivea SUN](https://www.youtube.com/watch?v=BgXrTGIiFV8)
- * Dispositivo, funcionamento e sua utilização
+ * Dispositivo e seu conceito
+ * Amostragem de exemplos do vídeo apresentando o conceito
 * Beacons no mundo
- * **Definir interatividade**
+ * Vídeo [Paypal Beacon](https://www.youtube.com/watch?v=m12pHb9ql04)
+ * Tipos de Aplicações
 * Beacons no Brasil
- * Argumentação e diminuição do monopólio criado
-* Parte técnica e construção
- * **Definir interatividade**
-* Na prática
- * Comunidade (GitHub)
+ * Monopólio das empresas
+ * Papel do Desenvolvedor
+ * "Ou você usa algo que alguém criou, ou você irá criar algo que outros vão usar"
+* Parte técnica, construção e prática
+ * Apresentação da ideia possível (alternativa)
+ * Apresentação dos componentes
+ * Apresentação do código
+ * Exemplo prático com voluntários
+* Comunidade (GitHub)
+ * Open-source
+ * MeetUp de IoT
 * Obrigado!
 
 ----
@@ -78,3 +86,4 @@ apenas para Android devido a dificuldade que existe no iOS.
 - [Bluetooth Low Energy: Um novo e emergente mercado de tecnologia sem fio](http://sis-publique.convergenciadigital.com.br/cgi/cgilua.exe/sys/start.htm?infoid=35710&sid=15)
 - [Bluetooth Low Energy (BLE) - A Short History of the BLE standard and GATT](http://www.edn-europe.com/blog/bluetooth-low-energy-ble-short-history-ble-standard-and-gatt)
 - [Over 100 use cases and examples for iBeacon technology](http://blog.mowowstudios.com/2015/02/100-use-cases-examples-ibeacon-technology)
+- [11 Beacon Projects Changing Mobile Payments](http://www.paymentssource.com/gallery/11-beacon-projects-changing-mobile-payments-3017204-1.html)
