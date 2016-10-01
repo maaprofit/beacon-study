@@ -2,7 +2,7 @@
 
 ```c
 AT+RENEW // Reseta o módulo para os padrões de fábrica  
-AT+RESET  // Reinicia o HM-10  
+AT+RESET // Reinicia o HM-10  
 AT // Comando que retorna se existe comunicação  
 AT+MARJ0xnnnn // Define o valor "major" do beacon (hexadecimal)  
 AT+MINO0xnnnn // Define o valor "minor" do beacon (hexadecimal)  
