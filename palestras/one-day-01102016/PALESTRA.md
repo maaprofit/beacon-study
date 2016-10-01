@@ -14,6 +14,7 @@
  * Monopólio das empresas
  * Papel do Desenvolvedor
  * "Ou você usa algo que alguém criou, ou você irá criar algo que outros vão usar"
+* Aplicações práticas
 * Parte técnica, construção e prática
  * Apresentação da ideia possível (alternativa)
  * Apresentação dos componentes
