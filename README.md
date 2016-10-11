@@ -12,4 +12,4 @@
 
 ## Palestras
 
-- OneDay Baixada Santista
+- [OneDay Baixada Santista](https://github.com/metractive/beacon-study/blob/master/palestras/one-day-01102016/PALESTRA.md)
