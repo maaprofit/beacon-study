@@ -14,7 +14,7 @@ A nomenclatura **beacon** relacionado a tecnologia *BLE* surgiu de um anúncio d
 
 Para a criação e montagem de um beacon, podemos utilizar um microcontrolador como o **Arduino** no qual nos oferece uma facilidade de envio de comandos para os sensores Bluetooth Low Energy. Utilizaremos aqui, o sensor [HM-10](https://www.itead.cc/serial-port-ble-module-master-slave-hm-10.html) que é um dos sensores que possui um firmware mais recente e possui comandos próprios para ser configurado como beacon.
 
-Descrevemos a montagem e criação do mesmo neste [link](/beacon-hm-10/CONFIGURE-BEACON.MD).
+Descrevemos a montagem e criação do mesmo neste [link](/beacon-hm-10/CONFIGURE-BEACON.md).
 
 ## Beacon Monitoring & Ranging
 
