@@ -4,11 +4,13 @@ O propósito deste repositório é centralizar todo um estudo em cima da tecnolo
 
 ## Introdução
 
-O beacon é apenas um termo referente a tecnologia **BLE**, que sua sigla significa *Bluetooth Low Energy*, uma tecnologia criada e anunciada pelo Bluetooth em sua versão 4.0. Ela proporciona ao bluetooth uma distribuição mais escalável devido ao tamanho do sensor, potência possível de ser alcançada e consumo menor de bateria relacionado as versões anteriores do mesmo.
+Beacon é uma tecnologia utilizada para enviar notificações em ambientes fechados e mais próximos do que GPS. O GPS hoje nos informa de forma geral onde estamos, mas não consegue saber exatamente o quão perto ou longe estamos dentro de um prédio. Para isso, os beacons foram criados para solucionar problemas de proximidade e interações com usuário de acordo com o comportamento deles.
 
-Com o lançamento da nova versão do Bluetooth, o mercado de IoT cresceu em cima da tecnologia de baixo consumo, já que ela serve para emissão de dados e com esta emissão de dados podem ser explorados pontos cruciais a Internet das Coisas.
+Ele também é um termo referente a tecnologia **BLE**, que sua sigla significa *Bluetooth Low Energy*, uma tecnologia criada e anunciada pelo Bluetooth em sua versão 4.0. Ela proporciona ao bluetooth uma distribuição mais escalável devido ao tamanho do sensor, potência possível de ser alcançada e consumo menor de bateria relacionado as versões anteriores do mesmo.
 
 A nomenclatura **beacon** relacionado a tecnologia *BLE* surgiu de um anúncio da Apple em 2013 sobre a denominação deles como *iBeacon* devido a adaptação do Bluetooth Low Energy nas versões mais novas do iPhone. Com isso, o Bluetooth Low Energy ficou conhecido como beacon (em sua tradução, como farol).
+
+Com o lançamento da nova versão do Bluetooth, o mercado de IoT cresceu em cima da tecnologia de baixo consumo, já que ela serve para emissão de dados e com esta emissão de dados podem ser exploradas infinitas possibilidades relacionadas a Internet das Coisas.
 
 ## Criação e montagem de um beacon (DIY)
 
