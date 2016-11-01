@@ -5,7 +5,7 @@
 - Arduino
 - Protoboard
 - HM-10
-- Bateria Lithium CR2032
+- Bateria Lithium CR2032 (para distribuição)
 
 ## Esquematização
 
