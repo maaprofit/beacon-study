@@ -18,7 +18,30 @@ Descrevemos a montagem e criação do mesmo neste [link](/beacon-hm-10/CONFIGURE
 
 ## Beacon Monitoring & Ranging
 
-Descritivo sobre os conceitos que o beacon possui. **[EM ANDAMENTO]**
+Existem dois tipos de ações possíveis de serem executadas com os beacons. São elas chamadas de **monitoring** e **ranging**. Estas ações são utilizadas para determinar qual será o comportamento daquele beacon na aplicação que está configurada.
+
+### Beacon Monitoring
+
+O comportamento de *Monitoring* ocorre quando o seu aplicativo entra ou sai de dentro do alcance do beacon, o aplicativo pode estar suspendido ou encerrado, dependendo apenas do Bluetooth ligado.
+
+**Normalmente, esse comportamento é utilizado para lançar push notifications automáticas**
+
+### Beacon Ranging
+
+O comportamento de *Ranging* que a tecnologia beacon oferece, é utilizada com o aplicativo aberto e serve justamente para lançar determinadas ações de acordo com a distância que você está do beacon. **Utilizado na maior parte das vezes em lojas de varejos, para que o beacon possa notificar que você está perto de um sapato em promoção.**
+
+### Observações
+
+- Beacon Ranging em celulares iPhones funciona apenas com o aplicativo aberto;
+- Os resultados de sinais entre o dispositivo e o beacon podem variar de acordo com o local do mesmo. Se ele estiver em uma bolsa ou bolso, o resultado pode variar bastante, sendo recomendado a colocação do beacon em um local livre de interrupções.
+
+## Tecnologias complementares
+
+### Geofencing
+
+Geofencing de uma maneira bem simples, é uma tecnologia utilizada em conjunto com *GPS* ou *RFID* para definir limites de alcance, como um perímetro. Muito utilizado em serviços de entrega para saber quando o entregador sai da sua rota.
+
+## Referências
 
 - [Bluetooth Low Energy (BLE) Beacon Monitoring (Detection, Location, and Reporting)](http://blogs.cisco.com/wireless/bluetooth-low-energy-ble-beacon-monitoring-detection-location-and-reporting)
 - [What are region Monitoring and Ranging?](https://community.estimote.com/hc/en-us/articles/203356607-What-are-region-Monitoring-and-Ranging-)
