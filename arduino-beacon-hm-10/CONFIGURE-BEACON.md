@@ -9,6 +9,8 @@
 
 ## Esquematização
 
+![Esquematização HM-10 -> Arduino](hm-10-schematics_bb.png)
+
 ## Desenvolvimento
 
 ## Lista de comandos para tornar o sensor em um Beacon
