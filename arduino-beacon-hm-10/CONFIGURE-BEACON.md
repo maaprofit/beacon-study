@@ -59,7 +59,7 @@ mySerial received: HMSoft V533
 -----------------------------
 ```
 
-A versão do firmware recomendada são as versões 500+. Caso ele retorne uma informação inferior a esta versão, recomendo a leitura deste outro _documento_.
+As versões de firmware recomendadas são as versões superiores à 500. Caso ele retorne uma informação inferior a esta versão, recomendo a leitura deste outro _documento_.
 
 ----
 
@@ -120,7 +120,7 @@ Os comandos a seguir a serem enviados através do *serial monitor* referem-se to
 ```c
 // Define o padrão de envio de status
 // (Valor 5 corresponde a 546.25 millisegundos)
-AT+ADVI5 // Define o padrão de envio de status
+AT+ADVI5
 
 // Configura o sensor como não pareável
 AT+ADTY3
@@ -168,6 +168,8 @@ Futuramente, vamos descrever neste repositório exemplos de como desenvolver um 
 - Entendimento e alteração do UUID
 - Alterando a potência do meu beacon
 - Preparando o beacon para distribuição
+
+**Cada um dos tópicos devem estão presentes em issues. Estamos abertos a colaboração, caso tenham interesse iterajam <3***
 
 ### Links de referência
 
