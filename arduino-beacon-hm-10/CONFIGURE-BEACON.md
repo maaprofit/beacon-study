@@ -61,6 +61,30 @@ mySerial received: HMSoft V533
 
 A versão do firmware recomendada são as versões 500+. Caso ele retorne uma informação inferior a esta versão, recomendo a leitura deste outro _documento_.
 
+----
+
+Se a comunicação do Arduino com o sensor estiver funcional, vamos seguir em frente. Execute os comandos a seguir:
+
+```c
+// Restaura o sensor para os padrões de fábrica
+AT+RENEW
+// Reinicia o sensor, para que os padrões sejam de fato atualizados
+AT+RESET
+```
+
+Recomendados que o comando **detect** seja enviado novamente, já que como os padrões de fábrica são restaurados, a **taxa de transmissão** também pode ser alterada.
+
+Assim que o sensor for reiniciado, sugiro o envio do comando **AT** para ver se está tudo **OK** antes de continuarmos. Se sim, abaixo seguem os próximos comandos.
+
+```c
+// Define o valor hexadecimal "major" do beacon
+AT+MARJ0xNNNN
+// Define o valor hexadecimal "minor" do beacon
+AT+MINO0xNNNN
+``` 
+
+###O que são os valores *major* e *minor*?
+
 ## Lista de comandos para tornar o sensor em um Beacon
 
 ```c
