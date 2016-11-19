@@ -4,7 +4,7 @@
 
 - Arduino
 - Protoboard
-- Sensor Bluetooth 4.0 **HM-10** ([Link](https://www.itead.cc/serial-port-ble-module-master-slave-hm-10.html))
+- Sensor Bluetooth 4.0 - HM-10 ([Link](https://www.itead.cc/serial-port-ble-module-master-slave-hm-10.html))
 
 ## Esquematização
 
