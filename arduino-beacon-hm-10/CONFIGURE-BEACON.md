@@ -77,13 +77,34 @@ Recomendados que o comando **detect** seja enviado novamente, já que como os pa
 Assim que o sensor for reiniciado, sugiro o envio do comando **AT** para ver se está tudo **OK** antes de continuarmos. Se sim, abaixo seguem os próximos comandos.
 
 ```c
-// Define o valor hexadecimal "major" do beacon
+// Define o valor hexadecimal "major" do sensor
 AT+MARJ0xNNNN
-// Define o valor hexadecimal "minor" do beacon
+// Define o valor hexadecimal "minor" do sensor
 AT+MINO0xNNNN
 ``` 
 
 ###O que são os valores *major* e *minor*?
+
+Como as traduções se referem, elas trazem informações maiores e menores do beacon. Estas informações são especialmente importantes para as aplicações para as quais este beacon está sendo configurado.
+
+Imagine que o valor maior (major) é um identificador único de um estalecimento, definimos o valor como **1**, portanto, devemos escrever **AT+MARJ0x0001** que em hexadecimal equivale ao número 1.
+
+Já o valor menor, equivale a seções dentro daquele estabelecimento. Geralmente, em exemplos práticos, isso é usado em varejos quando você quer ter 5 beacons em uma prateleira, em que cada um tem um valor menor (minor) referente a uma marca daquela prateleira. Vamos supor que queremos o valor **43522**, portanto, devemos escrever **AT+MINO0xAA02** que em hexadecimal equivale ao número 43522.
+
+Com isso, estes valores *minors* e *majors* são inteiramente utilizados para identificar o seu beacon dentro do seu aplicativo ou software, junto com o **UUID** do mesmo.
+
+Para identificar o valor *major* e *minor* atual do beacon, utilize os comandos abaixo:
+
+```c
+// Identifica o valor "major" do sensor
+AT+MARJ?
+// Identifica o valor "minor" do sensor
+AT+MINO?
+```
+
+----
+
+
 
 ## Lista de comandos para tornar o sensor em um Beacon
 
