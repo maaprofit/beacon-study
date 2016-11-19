@@ -18,7 +18,7 @@ Existem dois métodos já prontos, que inicialmente vamos abordar apenas um, o m
 
 Esta taxa de transmissão serve para que o Arduino consiga *conversar* na mesma língua que o sensor, e todos os comandos sejam reconhecidos e traduzidos pelo sensor.
 
-**Nota:** Não vamos abordar o passo a passo de como realizar toda a configuração do Arduino, como ligá-lo, como compilar o código e como utilizar o monitor serial dele. Isso já entra em outro escopo. Para mais informações, você pode verificar os tutoriais abaixo:
+**Nota:** Não vamos abordar o passo a passo de como realizar toda a configuração do Arduino, como ligá-lo, como compilar o código e como utilizar o monitor serial dele. Isso é um outro foco, mas caso precisem de ajuda, não hesitem em abrir issues. Para mais informações, você pode verificar o tutorial abaixo:
 
 - [Getting Started - arduino.cc](https://www.arduino.cc/en/Guide/HomePage)
 
@@ -35,8 +35,31 @@ Checking baud rate: 9600
 -----------------------------
 BLE Baud Detected: 9600
 -----------------------------
-
 ```
+
+A iteração inicia a partir da linha **Detecting BLE baud rate** e itera cada taxa já estabelecida na *linha 13* do código. Assim que encontrada, haverá um separador e retornará **BLE Baud Detected: xxxx**. O número presente de taxa, deve ser então alterado nas *linhas 57 e 58* e compilar novamente o código ao Arduino.
+
+Dependendo de qual foi a taxa recebida, altere no seu *serial monitor* a taxa correspondente e vamos começar a programar o sensor para que ele se torne um beacon.
+
+Assim que o código for compilado, envie um comando **AT** através do *serial monitor* e ele responderá com um **OK** se estiver tudo certo. Exemplo de resposta:
+
+```c
+-----------------------------
+Serial sent: AT
+mySerial received: OK
+-----------------------------
+```
+
+Você também pode verificar qual a versão do firmware do seu sensor, através do comando **AT+VERR?** e deve receber uma resposta semelhante:
+
+```c
+-----------------------------
+Serial sent: AT+VERR?
+mySerial received: HMSoft V533
+-----------------------------
+```
+
+A versão do firmware recomendada são as versões 500+. Caso ele retorne uma informação inferior a esta versão, recomendo a leitura deste outro _documento_.
 
 ## Lista de comandos para tornar o sensor em um Beacon
 
