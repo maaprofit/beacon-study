@@ -169,7 +169,11 @@ Futuramente, vamos descrever neste repositório exemplos de como desenvolver um 
 - Alterando a potência do meu beacon
 - Preparando o beacon para distribuição
 
-**Cada um dos tópicos devem estão presentes em issues para quem quiser colaborar, interagir!**
+----
+
+**Cada um dos tópicos estão presentes em issues para quem quiser colaborar, interagir!**
+
+----
 
 ### Links de referência
 
