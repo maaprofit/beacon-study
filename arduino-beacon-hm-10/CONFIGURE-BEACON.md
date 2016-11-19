@@ -8,6 +8,10 @@
 
 ## Esquematização
 
+A esquematização abaixo tem na foto o sensor HC-05, ele foi inserido pois era o único sensor semelhante que estava disponível no software de esquematização *[Fritzing](http://fritzing.org/home)*. Mas retifico que, as conexões são as mesmas que o HM-10.
+
+----
+
 ![Esquematização HM-10 -> Arduino](hm-10-schematics_bb.png)
 
 ## Desenvolvimento
