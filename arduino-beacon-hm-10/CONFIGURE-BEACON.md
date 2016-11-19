@@ -4,14 +4,39 @@
 
 - Arduino
 - Protoboard
-- HM-10
-- Bateria Lithium CR2032 (para distribuição)
+- Sensor Bluetooth 4.0 **HM-10** ([Link](https://www.itead.cc/serial-port-ble-module-master-slave-hm-10.html))
 
 ## Esquematização
 
 ![Esquematização HM-10 -> Arduino](hm-10-schematics_bb.png)
 
 ## Desenvolvimento
+
+Antes de qualquer coisa, é necessário realizar as conexões com o sensor HM-10 de acordo com a esquematização acima, se tudo estiver de acordo, você pode copiar o [código](/arduino-code/arduino-code.ino) presente na pasta deste documento.
+
+Existem dois métodos já prontos, que inicialmente vamos abordar apenas um, o método *detectBleBaudRate*, que é responsável por identificar e te informar a **taxa de transmissão** que o sensor HM-10 trabalha. Ele vai iterar as taxas de transmissões principais primeiramente, e logo em seguida caso não seja uma delas, ele itera as outras menos prováveis.
+
+Esta taxa de transmissão serve para que o Arduino consiga *conversar* na mesma língua que o sensor, e todos os comandos sejam reconhecidos e traduzidos pelo sensor.
+
+**Nota:** Não vamos abordar o passo a passo de como realizar toda a configuração do Arduino, como ligá-lo, como compilar o código e como utilizar o monitor serial dele. Isso já entra em outro escopo. Para mais informações, você pode verificar os tutoriais abaixo:
+
+- [Getting Started - arduino.cc](https://www.arduino.cc/en/Guide/HomePage)
+
+----
+
+Quando estiver com o código em mãos, compile-o para o Arduino e ele estará aguardando seus comandos. Como foi citado, cada sensor quando é comprado, vem com uma taxa de transmissão não estabelecida pelo fabricante. Portanto, no *serial monitor* do Arduino, escreva **detect** e envie para o Arduino. As informações de resposta a seguir devem ser mostradas:
+
+```c
+-----------------------------
+Serial sent: detect
+-----------------------------
+Detecting BLE baud rate:
+Checking baud rate: 9600
+-----------------------------
+BLE Baud Detected: 9600
+-----------------------------
+
+```
 
 ## Lista de comandos para tornar o sensor em um Beacon
 
