@@ -85,13 +85,13 @@ AT+MINO0xNNNN
 
 ###O que são os valores *major* e *minor*?
 
-Como as traduções se referem, elas trazem informações maiores e menores do beacon. Estas informações são especialmente importantes para as aplicações para as quais este beacon está sendo configurado.
+Como as traduções se referem, elas trazem informações maiores e menores do sensor. Estas informações são especialmente importantes para as aplicações para as quais este sensor está sendo configurado.
 
-Imagine que o valor maior (major) é um identificador único de um estalecimento, definimos o valor como **1**, portanto, devemos escrever **AT+MARJ0x0001** que em hexadecimal equivale ao número 1.
+Imagine que o valor maior (major) é um identificador único de um estabelecimento, definimos o valor como **1**, portanto, devemos escrever **AT+MARJ0x0001** que em hexadecimal equivale ao número 1.
 
-Já o valor menor, equivale a seções dentro daquele estabelecimento. Geralmente, em exemplos práticos, isso é usado em varejos quando você quer ter 5 beacons em uma prateleira, em que cada um tem um valor menor (minor) referente a uma marca daquela prateleira. Vamos supor que queremos o valor **43522**, portanto, devemos escrever **AT+MINO0xAA02** que em hexadecimal equivale ao número 43522.
+Já o valor menor, equivale as seções dentro daquele estabelecimento. Geralmente, em exemplos práticos, isso é usado em varejos quando você quer ter 5 beacons em uma prateleira, em que cada um tem um valor menor (minor) referente a uma marca daquela prateleira. Vamos supor que queremos o valor **43522**, portanto, devemos escrever **AT+MINO0xAA02** que em hexadecimal equivale ao número 43522.
 
-Com isso, estes valores *minors* e *majors* são inteiramente utilizados para identificar o seu beacon dentro do seu aplicativo ou software, junto com o **UUID** do mesmo.
+Com isso, estes valores *minors* e *majors* são inteiramente utilizados para identificar o seu beacon dentro do seu aplicativo ou software, junto com o **UUID** do mesmo. **Estes valores devem ser especificados em hexadecimal**.
 
 Para identificar o valor *major* e *minor* atual do beacon, utilize os comandos abaixo:
 
@@ -104,24 +104,70 @@ AT+MINO?
 
 ----
 
-
-
-## Lista de comandos para tornar o sensor em um Beacon
+O próximo passo é definir um nome para o nosso sensor, para no caso de distribuição em larga escala, isso é importante para identificação e alteração do mesmo. Abaixo, comandos para definir e identificar o nome do mesmo:
 
 ```c
-AT+RENEW // Reseta o módulo para os padrões de fábrica  
-AT+RESET // Reinicia o HM-10  
-AT // Comando que retorna se existe comunicação  
-AT+MARJ0xnnnn // Define o valor "major" do beacon (hexadecimal)  
-AT+MINO0xnnnn // Define o valor "minor" do beacon (hexadecimal)  
-AT+ADVI5 // Define o padrão de envio de status (Valor 5 corresponde a 546.25 millisegundos)  
-AT+NAMEMyiBeacon // Define um nome para o beacon  
-AT+ADTY3 // Configura o dispositivo como não pareáve/l  
-AT+IBEA1 // Habilita o modo beacon  
-AT+DELO2 // Configure o beacon para apenas emitir sinais  
-AT+PWRM0 // Habilita o auto-sleep para economizar energia  
-AT+RESET // Reinicia o módulo
+// Define um nome para o beacon
+AT+NAMEMeuBeacon
+// Identifica o nome do beacon
+AT+NAME?
 ```
+
+----
+
+Os comandos a seguir a serem enviados através do *serial monitor* referem-se totalmente a transformação do sensor em um beacon de fato. Tirando todas as funções de bluetooth comum e trazendo a tona sua funcionalidade de consumo baixo de energia e envio de dados constante.
+
+```c
+// Define o padrão de envio de status
+// (Valor 5 corresponde a 546.25 millisegundos)
+AT+ADVI5 // Define o padrão de envio de status
+
+// Configura o sensor como não pareável
+AT+ADTY3
+
+// Habilita o modo beacon do sensor  
+AT+IBEA1
+
+// Configura o sensor para apenas emitir sinais 
+AT+DELO2
+
+// Habilita o modo auto-sleep, para economizar energia  
+AT+PWRM0 
+```
+
+Assim que todas as informações foram enviadas para o sensor, ele tornou-se um beacon funcional. Para conseguir utilizá-lo agora como beacon, o sensor deve ser reiniciado através do comando:
+
+```c
+AT+RESET
+```
+
+Assim que reiniciado, não será mais possível enviar comandos para ele através do Arduino, devido a informarmos para ele entrar em *modo soneca* literalmente, com o comando **AT+PWRM0**.
+
+Para verificar se o seu sensor realmente tornou-se um beacon, você pode baixar aplicativos que identificam beacons e te mostram o mesmo. Recomendamos o uso do aplicativo recentemente lançado no [Android](https://play.google.com/store/apps/details?id=net.alea.beaconsimulator&hl=pt_BR)
+
+###Quero voltar a enviar comandos para o sensor, como faço?
+
+Para enviar comandos novamente para o sensor, temos o nosso segundo método citado anteriormente, chamado *wakeUp*. Para utilizá-lo, basta conectar o sensor ao Arduino com a esquematização especificada e através do *serial monitor* enviar o comando **wake**. Ele vai nos retornar as mensagens a seguir:
+
+```c
+-----------------------------
+Serial sent: wake
+-----------------------------
+Wake up command has been sent to HM-10
+-----------------------------
+```
+
+Assim que enviado, o sensor deve começar a piscar novamente e está pronto para receber comandos. Teste o comando **AT** para verificar se ele retorna um **OK** e você pode fazer as alterações que desejar.
+
+----
+
+###Qual o próximo passo?
+
+Futuramente, vamos descrever neste repositório exemplos de como desenvolver um aplicativo híbrido para Android e iOS e também nativo. Além disso, também temos algumas informações adicionais que em breve preencheremos com conteúdo.
+
+- Entendimento e alteração do UUID
+- Alterando a potência do meu beacon
+- Preparando o beacon para distribuição
 
 ### Links de referência
 
